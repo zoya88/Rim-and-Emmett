@@ -1,14 +1,11 @@
 header{
-
-  float : left;
+  text-align:center;
   position: relative;
-  left:50%;
-
-
 }
 nav{
     list-style-type: none;
-    margin: 10%auto;;
+    text-shadow: 0 0 1px #000;
+    top: 300px;
     padding: 0;
     width: 25%;
     background-color:;
@@ -16,15 +13,19 @@ nav{
     height: 100%;
     overflow: auto;
 }
-/*nav.li{
-  display: block;
-color: #000;
+nav li:hover{
+  background-color: yellow;
+}
+nav li{
+display: block;
 padding: 8px 16px;
 text-decoration: none;
+background-color: blanchedalmond;
 
-}*/
+}
 body {
-    background-color: lightblue;
+    color: white;
+    background-color: pink;
 }
 article{
   margin-left: 30%;
@@ -32,7 +33,7 @@ article{
 }
 
 h1 {
-    color: white;
+
     text-align: center;
 }
 
