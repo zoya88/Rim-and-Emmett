@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-[class]=top]{
-  background:pink
-  }
-  </style>
-  </head>
-  <body>
-  <h1 class=to"top-header"> welcome My husband</h1>
-  <p class="top-text"> Hello my baby boy!</P>
-  <p class="topcontent">Are you learning CSS and JAVA ?</p>
-  <p><b>Note:</b> for [<i>attribute </i>=<i>value</i>] to workin IE8 and earlier,a DOCTYPE must be declared.</p>
-  </body>
-  </html>    
+<body>
+  <h1> My First JavaScript</h1>
+  <button type="button"
+ onclick="document.getElementById('demo').innerHTML=Date()">
+ Click me to display Date and Time.</button>
+ <p id="demo"></p>
+ </body>
+ </html>
