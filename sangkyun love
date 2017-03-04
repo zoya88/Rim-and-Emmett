@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <h1> My First JavaScript</h1>
-  <button type="button"
- onclick="document.getElementById('demo').innerHTML=Date()">
- Click me to display Date and Time.</button>
- <p id="demo"></p>
+  <h1> My First Web Page</h1>
+  <p>My First Paragraph.</P>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML=7+9;
+ </script>
  </body>
  </html>
